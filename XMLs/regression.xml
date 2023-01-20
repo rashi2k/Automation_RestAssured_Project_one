@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression suite">
+  <test name="API Regression Suite">
+    <classes>
+<!--      R1-->
+      <class name="tests.crm.customerBasicInfo.PostCustomerBasicInfo"></class>
+      <class name="tests.crm.customerBasicInfo.GetCustomerBasicInfo"></class>
+      <class name="tests.crm.customerBasicInfo.SearchCustomerBasicInfo"></class>
+      <class name="tests.crm.customerBasicInfo.PutCustomerBasicInfo"></class>
+
+      <class name="tests.crm.underwritingCategories.PostUnderwritingCategories"></class>
+      <class name="tests.crm.underwritingCategories.GetUnderwritingCategories"></class>
+      <class name="tests.crm.underwritingCategories.PutUnderwritingCategories"></class>
+      <class name="tests.crm.underwritingCategories.DeleteUnderwritingCategories"></class>
+
+      <class name="tests.crm.customerGroups.PostCustomerGroup"></class>
+      <class name="tests.crm.customerGroups.GetCustomerGroup"></class>
+      <class name="tests.crm.customerGroups.PutCustomerGroup"></class>
+      <class name="tests.crm.customerGroups.DeleteCustomerGroup"></class>
+
+      <class name="tests.crm.customerTypes.GetCustomerType"></class>
+
+      <class name="tests.crm.relationshipTypes.PostRelationshipTypes"></class>
+      <class name="tests.crm.relationshipTypes.GetRelationshipTypes"></class>
+      <class name="tests.crm.relationshipTypes.PutRelationshipTypes"></class>
+      <class name="tests.crm.relationshipTypes.DeleteRelationshipTypes"></class>
+
+      <class name="tests.crm.settingsController.GetValidationEvents"></class>
+      <class name="tests.crm.settingsController.PutValidationEvents"></class>
+      <class name="tests.crm.settingsController.PutValidationEventsWithCustomerFlow"></class>
+
+<!--        R2-->
+      <class name="tests.crm.tax.PostTax"></class>
+      <class name="tests.crm.tax.GetTax"></class>
+      <class name="tests.crm.tax.PutTax"></class>
+      <class name="tests.crm.tax.DeleteTax"></class>
+
+      <class name="tests.crm.taxRegistration.GetTaxRegistration"></class>
+      <class name="tests.crm.taxRegistration.PutTaxRegistration"></class>
+      <class name="tests.crm.taxRegistration.DeleteTaxRegistration"></class>
+
+      <class name="tests.crm.documentList.GetDocumentList"></class>
+
+      <class name="tests.crm.bank.PostBank"></class>
+      <class name="tests.crm.bank.GetBank"></class>
+      <class name="tests.crm.bank.PutBank"></class>
+      <class name="tests.crm.bank.DeleteBank"></class>
+
+      <class name="tests.crm.bankBranch.PostBankBranch"></class>
+      <class name="tests.crm.bankBranch.GetBankBranch"></class>
+      <class name="tests.crm.bankBranch.PutBankBranch"></class>
+      <class name="tests.crm.bankBranch.DeleteBankBranch"></class>
+
+      <class name="tests.crm.occupation.PostOccupation"></class>
+      <class name="tests.crm.occupation.GetOccupation"></class>
+      <class name="tests.crm.occupation.PutOccupation"></class>
+      <class name="tests.crm.occupation.DeleteOccupation"></class>
+
+      <class name="tests.crm.customerBankInfo.PostCustomerBankInfo"></class>
+      <class name="tests.crm.customerBankInfo.GetCustomerBankInfo"></class>
+      <class name="tests.crm.customerBankInfo.PutCustomerBankInfo"></class>
+      <class name="tests.crm.customerBankInfo.DeleteCustomerBankInfo"></class>
+
+      <class name="tests.crm.customerEmploymentInfo.PostCustomerEmploymentInfo"></class>
+      <class name="tests.crm.customerEmploymentInfo.GetCustomerEmploymentInfo"></class>
+      <class name="tests.crm.customerEmploymentInfo.PutCustomerEmploymentInfo"></class>
+      <class name="tests.crm.customerEmploymentInfo.DeleteCustomerEmploymentInfo"></class>
+
+      <class name="tests.crm.customerAdditionalInfo.PostCustomerAdditionalInfo"></class>
+      <class name="tests.crm.customerAdditionalInfo.GetCustomerAdditionalInfo"></class>
+      <class name="tests.crm.customerAdditionalInfo.PutCustomerAdditionalInfo"></class>
+      <class name="tests.crm.customerAdditionalInfo.DeleteCustomerAdditionalInfo"></class>
+
+      <class name="tests.crm.additionalInfoFields.GetAdditionalInfoFields"></class>
+
+      <class name="tests.crm.statusChange.PostStatusChange"></class>
+      <class name="tests.crm.statusChange.GetStatusChange"></class>
+
+      <class name="tests.crm.jointParticipation.PostJointParticipation"></class>
+      <class name="tests.crm.jointParticipation.GetJointParticipation"></class>
+      <class name="tests.crm.jointParticipation.PutJointParticipation"></class>
+      <class name="tests.crm.jointParticipation.DeleteJointParticipation"></class>
+
+      <class name="tests.crm.customerContactInfo.PutCustomerContactInfo"></class>
+      <class name="tests.crm.customerContactInfo.GetCustomerContactInfo"></class>
+
+      <class name="tests.crm.customerNotes.PostCustomerNotes"></class>
+      <class name="tests.crm.customerNotes.GetCustomerNotes"></class>
+      <class name="tests.crm.customerNotes.PutCustomerNotes"></class>
+
+      <class name="tests.crm.customerDocuments.PutCustomerDocuments"></class>
+      <class name="tests.crm.customerDocuments.GetCustomerDocuments"></class>
+
+<!--        R3-->
+      <class name="tests.crm.businessType.PostBusinessType"></class>
+      <class name="tests.crm.businessType.GetBusinessType"></class>
+      <class name="tests.crm.businessType.PutBusinessType"></class>
+
+      <class name="tests.crm.corporateCustomerBasicInfo.PostCorporateCustomerBasicInfo"></class>
+      <class name="tests.crm.corporateCustomerBasicInfo.GetCorporateCustomerBasicInfo"></class>
+      <class name="tests.crm.corporateCustomerBasicInfo.SearchCorporateCustomerBasicInfo"></class>
+
+<!--      R4-->
+      <class name="tests.crm.taxesExcepted.PutTaxesExcepted"></class>
+      <class name="tests.crm.taxesExcepted.GetTaxesExcepted"></class>
+      <class name="tests.crm.corporateCustomerBasicInfo.PutCorporateCustomerBasicInfo"></class>
+
+    </classes>
+  </test>
+</suite>

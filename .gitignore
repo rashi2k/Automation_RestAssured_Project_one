@@ -1,0 +1,5 @@
+/resources/
+.settings
+allure-results/
+bin/
+target/
